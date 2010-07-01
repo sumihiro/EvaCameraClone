@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* EvaCameraCloneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* EvaCameraCloneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* EvaCameraCloneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* EvaCameraCloneViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* EvaCameraCloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* EvaCameraCloneViewController.m */; };
+		A4B1842C11DC48D100E270AA /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1842A11DC48D100E270AA /* CameraViewController.m */; };
+		A4B1842D11DC48D100E270AA /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1842B11DC48D100E270AA /* CameraViewController.xib */; };
+		A4B1843111DC4B8200E270AA /* OverlayImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1843011DC4B8200E270AA /* OverlayImageManager.m */; };
+		A4B1843411DC4C1700E270AA /* OverlayImageSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1843311DC4C1700E270AA /* OverlayImageSet.m */; };
+		A4B1843811DC505A00E270AA /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1843611DC505A00E270AA /* PreviewViewController.m */; };
+		A4B1843911DC505A00E270AA /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1843711DC505A00E270AA /* PreviewViewController.xib */; };
+		A4B1843D11DC525400E270AA /* ImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1843C11DC525400E270AA /* ImageEditor.m */; };
+		A4B1844F11DC59BE00E270AA /* image0Full.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B1844B11DC59BE00E270AA /* image0Full.png */; };
+		A4B1845011DC59BE00E270AA /* image0Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B1844C11DC59BE00E270AA /* image0Small.png */; };
+		A4B1845111DC59BE00E270AA /* image1Full.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B1844D11DC59BE00E270AA /* image1Full.png */; };
+		A4B1845211DC59BE00E270AA /* image1Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B1844E11DC59BE00E270AA /* image1Small.png */; };
+		A4B184DE11DC618000E270AA /* README in Resources */ = {isa = PBXBuildFile; fileRef = A4B184DD11DC618000E270AA /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* EvaCameraCloneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaCameraCloneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* EvaCameraCloneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaCameraCloneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* EvaCameraClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvaCameraClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* EvaCameraCloneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EvaCameraCloneViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* EvaCameraCloneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaCameraCloneViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* EvaCameraCloneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaCameraCloneViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* EvaCameraClone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaCameraClone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* EvaCameraClone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EvaCameraClone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A4B1842911DC48D100E270AA /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		A4B1842A11DC48D100E270AA /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		A4B1842B11DC48D100E270AA /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		A4B1842F11DC4B8200E270AA /* OverlayImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayImageManager.h; sourceTree = "<group>"; };
+		A4B1843011DC4B8200E270AA /* OverlayImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayImageManager.m; sourceTree = "<group>"; };
+		A4B1843211DC4C1700E270AA /* OverlayImageSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayImageSet.h; sourceTree = "<group>"; };
+		A4B1843311DC4C1700E270AA /* OverlayImageSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayImageSet.m; sourceTree = "<group>"; };
+		A4B1843511DC505A00E270AA /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		A4B1843611DC505A00E270AA /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		A4B1843711DC505A00E270AA /* PreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
+		A4B1843B11DC525400E270AA /* ImageEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEditor.h; sourceTree = "<group>"; };
+		A4B1843C11DC525400E270AA /* ImageEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEditor.m; sourceTree = "<group>"; };
+		A4B1844B11DC59BE00E270AA /* image0Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0Full.png; sourceTree = "<group>"; };
+		A4B1844C11DC59BE00E270AA /* image0Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0Small.png; sourceTree = "<group>"; };
+		A4B1844D11DC59BE00E270AA /* image1Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1Full.png; sourceTree = "<group>"; };
+		A4B1844E11DC59BE00E270AA /* image1Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1Small.png; sourceTree = "<group>"; };
+		A4B184DD11DC618000E270AA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* EvaCameraCloneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* EvaCameraCloneAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* EvaCameraCloneViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* EvaCameraCloneViewController.m */,
+				A4B1842911DC48D100E270AA /* CameraViewController.h */,
+				A4B1842A11DC48D100E270AA /* CameraViewController.m */,
+				A4B1842B11DC48D100E270AA /* CameraViewController.xib */,
+				A4B1842F11DC4B8200E270AA /* OverlayImageManager.h */,
+				A4B1843011DC4B8200E270AA /* OverlayImageManager.m */,
+				A4B1843211DC4C1700E270AA /* OverlayImageSet.h */,
+				A4B1843311DC4C1700E270AA /* OverlayImageSet.m */,
+				A4B1843511DC505A00E270AA /* PreviewViewController.h */,
+				A4B1843611DC505A00E270AA /* PreviewViewController.m */,
+				A4B1843711DC505A00E270AA /* PreviewViewController.xib */,
+				A4B1843B11DC525400E270AA /* ImageEditor.h */,
+				A4B1843C11DC525400E270AA /* ImageEditor.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* EvaCameraClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				A4B184DD11DC618000E270AA /* README */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* EvaCameraClone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1844B11DC59BE00E270AA /* image0Full.png */,
+				A4B1844C11DC59BE00E270AA /* image0Small.png */,
+				A4B1844D11DC59BE00E270AA /* image1Full.png */,
+				A4B1844E11DC59BE00E270AA /* image1Small.png */,
+				2899E5210DE3E06400AC0155 /* EvaCameraCloneViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* EvaCameraClone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* EvaCameraClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EvaCameraClone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvaCameraClone;
+			productName = EvaCameraClone;
+			productReference = 1D6058910D05DD3D006BFB54 /* EvaCameraClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EvaCameraClone" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* EvaCameraClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* EvaCameraCloneViewController.xib in Resources */,
+				A4B1842D11DC48D100E270AA /* CameraViewController.xib in Resources */,
+				A4B1843911DC505A00E270AA /* PreviewViewController.xib in Resources */,
+				A4B1844F11DC59BE00E270AA /* image0Full.png in Resources */,
+				A4B1845011DC59BE00E270AA /* image0Small.png in Resources */,
+				A4B1845111DC59BE00E270AA /* image1Full.png in Resources */,
+				A4B1845211DC59BE00E270AA /* image1Small.png in Resources */,
+				A4B184DE11DC618000E270AA /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* EvaCameraCloneAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* EvaCameraCloneViewController.m in Sources */,
+				A4B1842C11DC48D100E270AA /* CameraViewController.m in Sources */,
+				A4B1843111DC4B8200E270AA /* OverlayImageManager.m in Sources */,
+				A4B1843411DC4C1700E270AA /* OverlayImageSet.m in Sources */,
+				A4B1843811DC505A00E270AA /* PreviewViewController.m in Sources */,
+				A4B1843D11DC525400E270AA /* ImageEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EvaCameraClone_Prefix.pch;
+				INFOPLIST_FILE = "EvaCameraClone-Info.plist";
+				PRODUCT_NAME = EvaCameraClone;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EvaCameraClone_Prefix.pch;
+				INFOPLIST_FILE = "EvaCameraClone-Info.plist";
+				PRODUCT_NAME = EvaCameraClone;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EvaCameraClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EvaCameraClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
